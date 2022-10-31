@@ -13,4 +13,5 @@ const firebaseConfig = {
     nomedeusuario = document.getElementById("userName").value 
     console.log(nomedeusuario)
     localStorage.setItem("Username", nomedeusuario)
+    window.location = "kwitterroom.html"
   }
